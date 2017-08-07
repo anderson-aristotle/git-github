@@ -13,11 +13,11 @@
 
 ## Prerequisites
 
--   [Git Basics](https://github.com/ga-wdi-boston/git-basics)
+-   [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git)
 
 ## Overview
 
-Continuing with what we started [Git Basics](https://github.com/ga-wdi-boston/git-basics) we are going to use Github
+Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git) we are going to use Github
 to manage our project.
 
 ## Demo: Linking with GitHub
@@ -99,7 +99,7 @@ branch.
 
 ## Editing on GitHub
 
-Hey! See that little pencil button on the top of a page on github!? That looks
+Hey! See that little pencil button on the top of a page on GitHub!? That looks
 to change text and will help us, right?!
 ![Edit Pencil](https://i.imgur.com/Drt2g9u.png)
 Wrong! DON'T EVER USE THAT! Regardless of how small changes are you typically

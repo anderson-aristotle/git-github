@@ -101,7 +101,7 @@ branch.
 
 Hey! See that little pencil button on the top of a page on github!? That looks
 to change text and will help us, right?!
-[![Edit Pencil](http://i.imgur.com/Drt2g9u.png)
+![Edit Pencil](https://i.imgur.com/Drt2g9u.png)
 Wrong! DON'T EVER USE THAT! Regardless of how small changes are you typically
 never want to edit ON GitHub. You always want to make changes locally and push
  them.

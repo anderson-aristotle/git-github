@@ -72,9 +72,6 @@ it.
 Watch as I add a remote from one of your repositories then update my local with
 the changes. You will be asked to do this next.
 
-`git remote add upstream <"git@gsomessh.com/">` is the command to add a remote
-called upstream.  It's just as easy to pull from it.
-
 ## Adding Your Own Remote
 
 Working with the same partner from before one of you will be the primary

@@ -68,6 +68,8 @@ A remote repository is just another repository that you are connected to and
 depending on your permission you can push code up to it and pull code down from
 it.
 
+The command for adding a new remote is `git remote add <remote-name> <remote-URL>`. You may choose any name for the remote-name but it should be sensible. The remote URL can be copied by clicking the green `Clone or Download` button that is on every GitHub repo, then selecting `SSH` and copying it.
+
 Watch as I add a remote from one of your repositories then update my local with
 the changes. You will be asked to do this next.
 

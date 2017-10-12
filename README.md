@@ -92,7 +92,7 @@ local.
 6.  The primary will add to the story and push the changes to their master
 branch.
 
-7.The primary and the contributor will go back and forth adding to the story.
+7.  The primary and the contributor will go back and forth adding to the story.
 
 ## Editing on GitHub
 

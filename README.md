@@ -4,12 +4,11 @@
 
 ## Objectives
 
--   Manage change in a project.
--   Collaborate over time and space.
--   Fork a repository.
--   Clone a repository
--   Synchronize repositories locally.
--   Synchronize repositories remotely.
+-   Manage changes in a project over time.
+-   Collaborate over time and space with other developers on the same project.
+-   Fork a remote repository to get your own remote copy.
+-   Clone a remote repository to get your own local copy.
+-   Synchronize local and remote repositories.
 
 ## Prerequisites
 

@@ -106,10 +106,11 @@ never want to edit ON GitHub. You always want to make changes locally and push
 The reason we never want to do that is if you edit in the cloud, our local repo
 and GitHub repo become out of sync and it breaks convention.
 
-## References
+## Additional Resources
 
 -   [Git Commands](command-reference.md)
 -   [Github's fork page](https://help.github.com/articles/fork-a-repo/)
+-   [An Introduction to Git and GitHub by CS50](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
 
 ## [License](LICENSE)
 

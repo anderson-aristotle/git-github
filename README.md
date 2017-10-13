@@ -4,12 +4,11 @@
 
 ## Objectives
 
--   Manage change in a project.
--   Collaborate over time and space.
--   Fork a repository.
--   Clone a repository
--   Synchronize repositories locally.
--   Synchronize repositories remotely.
+-   Manage changes in a project over time.
+-   Collaborate over time and space with other developers on the same project.
+-   Fork a remote repository to get your own remote copy.
+-   Clone a remote repository to get your own local copy.
+-   Synchronize local and remote repositories.
 
 ## Prerequisites
 
@@ -69,11 +68,10 @@ A remote repository is just another repository that you are connected to and
 depending on your permission you can push code up to it and pull code down from
 it.
 
+The command for adding a new remote is `git remote add <remote-name> <remote-URL>`. You may choose any name for the remote-name but it should be sensible. The remote URL can be copied by clicking the green `Clone or Download` button that is on every GitHub repo, then selecting `SSH` and copying it.
+
 Watch as I add a remote from one of your repositories then update my local with
 the changes. You will be asked to do this next.
-
-`git remote add upstream <"git@gsomessh.com/">` is the command to add a remote
-called upstream.  It's just as easy to pull from it.
 
 ## Adding Your Own Remote
 
@@ -95,7 +93,7 @@ local.
 6.  The primary will add to the story and push the changes to their master
 branch.
 
-7.The primary and the contributor will go back and forth adding to the story.
+7.  The primary and the contributor will go back and forth adding to the story.
 
 ## Editing on GitHub
 
@@ -108,10 +106,11 @@ never want to edit ON GitHub. You always want to make changes locally and push
 The reason we never want to do that is if you edit in the cloud, our local repo
 and GitHub repo become out of sync and it breaks convention.
 
-## References
+## Additional Resources
 
 -   [Git Commands](command-reference.md)
 -   [Github's fork page](https://help.github.com/articles/fork-a-repo/)
+-   [An Introduction to Git and GitHub by CS50](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
 
 ## [License](LICENSE)
 

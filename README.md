@@ -4,20 +4,20 @@
 
 ## Objectives
 
--   Manage changes in a project over time.
--   Collaborate over time and space with other developers on the same project.
--   Fork a remote repository to get your own remote copy.
--   Clone a remote repository to get your own local copy.
--   Synchronize local and remote repositories.
+- Manage changes in a project over time.
+- Collaborate over time and space with other developers on the same project.
+- Fork a remote repository to get your own remote copy.
+- Clone a remote repository to get your own local copy.
+- Synchronize local and remote repositories.
 
 ## Prerequisites
 
--   [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git)
+- [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git)
 
 ## Overview
 
-Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git) we are going to use Github
-to manage our project.
+Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git)
+we are going to use Github to manage our project.
 
 ## Demo: Linking with GitHub
 
@@ -68,7 +68,13 @@ A remote repository is just another repository that you are connected to and
 depending on your permission you can push code up to it and pull code down from
 it.
 
-The command for adding a new remote is `git remote add <remote-name> <remote-URL>`. You may choose any name for the remote-name but it should be sensible. The remote URL can be copied by clicking the green `Clone or Download` button that is on every GitHub repo, then selecting `SSH` and copying it.
+The command for adding a new remote is:
+
+```git remote add <remote-name> <remote-URL>```
+
+You may choose any name for the remote-name but it should be sensible. The
+remote URL can be copied by clicking the green `Clone or Download` button that
+is on every GitHub repo, then selecting `SSH` and copying it.
 
 Watch as I add a remote from one of your repositories then update my local with
 the changes. You will be asked to do this next.
@@ -78,42 +84,45 @@ the changes. You will be asked to do this next.
 Working with the same partner from before one of you will be the primary
 repository, the other will be a contributor.
 
-1.  The contributor will add the primary repository as a remote.
+1. The contributor will add the primary repository as a remote.
 
-2.  The primary will push their latest story to the master branch.
+1. The primary will push their latest story to the master branch.
 
-3.  The contributor will pull the master branch from the primary.
+1. The contributor will pull the master branch from the primary.
 
-4.  The contributor will add to the story and push their changes to their own
+1. The contributor will add to the story and push their changes to their own
 repository and create a pull request to the primary.
 
-5.  The primary will accept the pull request and pull the changes to their
+1. The primary will accept the pull request and pull the changes to their
 local.
 
-6.  The primary will add to the story and push the changes to their master
+1. The primary will add to the story and push the changes to their master
 branch.
 
-7.  The primary and the contributor will go back and forth adding to the story.
+1. The primary and the contributor will go back and forth adding to the story.
 
 ## Editing on GitHub
 
 Hey! See that little pencil button on the top of a page on GitHub!? That looks
-to change text and will help us, right?!
+like it's used to change the text and will help us, right?!
+
 ![Edit Pencil](https://i.imgur.com/Drt2g9u.png)
-Wrong! DON'T EVER USE THAT! Regardless of how small changes are you typically
+
+Wrong! DON'T EVER USE THAT! Regardless of how small the changes are, you
 never want to edit ON GitHub. You always want to make changes locally and push
- them.
+them.
+
 The reason we never want to do that is if you edit in the cloud, our local repo
 and GitHub repo become out of sync and it breaks convention.
 
 ## Additional Resources
 
--   [Git Commands](command-reference.md)
--   [Github's fork page](https://help.github.com/articles/fork-a-repo/)
--   [An Introduction to Git and GitHub by CS50](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
+- [Git Commands](command-reference.md)
+- [Github's fork page](https://help.github.com/articles/fork-a-repo/)
+- [An Introduction to Git and GitHub by CS50](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
 
 ## [License](LICENSE)
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
+1. All content is licensed under a CC­BY­NC­SA 4.0 license.
+1. All software code is licensed under GNU GPLv3. For commercial use or
     alternative licensing, please contact legal@ga.co.

@@ -104,11 +104,14 @@ branch.
 ## Editing on GitHub
 
 Hey! See that little pencil button on the top of a page on GitHub!? That looks
-to change text and will help us, right?!
+like it's used to change the text and will help us, right?!
+
 ![Edit Pencil](https://i.imgur.com/Drt2g9u.png)
-Wrong! DON'T EVER USE THAT! Regardless of how small changes are you typically
+
+Wrong! DON'T EVER USE THAT! Regardless of how small the changes are, you
 never want to edit ON GitHub. You always want to make changes locally and push
- them.
+them.
+
 The reason we never want to do that is if you edit in the cloud, our local repo
 and GitHub repo become out of sync and it breaks convention.
 

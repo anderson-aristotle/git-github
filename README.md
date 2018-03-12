@@ -118,6 +118,7 @@ and GitHub repo become out of sync and it breaks convention.
 ## Additional Resources
 
 - [Git Commands](command-reference.md)
+- [Git & GitHub Diagram](https://git.generalassemb.ly/storage/user/3667/files/c2df43ec-da6e-11e7-9187-a5df8d4e74f7)
 - [Github's fork page](https://help.github.com/articles/fork-a-repo/)
 - [An Introduction to Git and GitHub by CS50](https://www.youtube.com/watch?v=MJUJ4wbFm_A)
 

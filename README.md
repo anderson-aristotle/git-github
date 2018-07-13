@@ -16,90 +16,40 @@
 
 ## Overview
 
-Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git)
-we are going to use Github to manage our project.
+Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git) we are going to use Github to manage our project.
 
 ## Demo: Linking with GitHub
 
-So we have a local repository, watch as I create a GitHub repository. Why
-GitHub? So we can backup our code online. It also provides us with a useful
-graphical interface and useful collaboration features.
+So we have a local repository, watch as I create a GitHub repository. Why GitHub? So we can backup our code online. It also provides us with a useful graphical interface and useful collaboration features.
 
 Now create your own GitHub repository and `push` your master branch.
 
 ## Lab: More Pushing
 
-The last time we saw Ned Stark we had just written his fate.  Below his story
-write the beggining of another character's story.  For instance:
+The last time we saw Ned Stark we had just written his fate.  Below his story write the beggining of another character's story.  For instance:
 
 > Joffrey Baratheon was the one to do Ned in, but his story was only about to
 > being, and let me assure you he will ___DEFINITELY NOT DIE!___
 
 Push the changes you made.
 
-Also push your `dream-story` branch.  We pushed our `master` branch with the
-command `git push origin master`.  Can you figure out how to push our
-`dream-story` branch?
+Also push your `dream-story` branch.  We pushed our `master` branch with the command `git push origin master`.  Can you figure out how to push our `dream-story` branch?
 
 ## Demo: Adding to Your Story
 
-Watch as I `fork` and `clone` one of your repos and make an addition by
-creating a `pull request`.
+Watch as I `fork` and `clone` one of your repos and make an addition by creating a `pull request`.
 
 ## Lab: Adding to Other's Stories
 
-Working with a partner follow my example and take turns adding to one another's
-stories. Accept each other's pull requests.  After you've each gone once stop.
+Working with a partner follow my example and take turns adding to one another's stories. Accept each other's pull requests.  After you've each gone once stop.
 
 ## Pulling: Updating Your Local
 
-Each of you should now have updated code on GitHub, but your local Git repo
-will be behind.  We need to get the latest code off of GitHub.  We can do this
-by pulling the changes that we merged.  The command to do this is:
+Each of you should now have updated code on GitHub, but your local Git repo will be behind.  We need to get the latest code off of GitHub.  We can do this by pulling the changes that we merged.  The command to do this is:
 
 `git pull origin master`
 
-This get the latest copy of our code off of the master branch of our original
-repository.
-
-## Remotes
-
-A remote repository is just another repository that you are connected to and
-depending on your permission you can push code up to it and pull code down from
-it.
-
-The command for adding a new remote is:
-
-```git remote add <remote-name> <remote-URL>```
-
-You may choose any name for the remote-name but it should be sensible. The
-remote URL can be copied by clicking the green `Clone or Download` button that
-is on every GitHub repo, then selecting `SSH` and copying it.
-
-Watch as I add a remote from one of your repositories then update my local with
-the changes. You will be asked to do this next.
-
-## Adding Your Own Remote
-
-Working with the same partner from before one of you will be the primary
-repository, the other will be a contributor.
-
-1. The contributor will add the primary repository as a remote.
-
-1. The primary will push their latest story to the master branch.
-
-1. The contributor will pull the master branch from the primary.
-
-1. The contributor will add to the story and push their changes to their own
-repository and create a pull request to the primary.
-
-1. The primary will accept the pull request and pull the changes to their
-local.
-
-1. The primary will add to the story and push the changes to their master
-branch.
-
-1. The primary and the contributor will go back and forth adding to the story.
+This get the latest copy of our code off of the master branch of our original repository.
 
 ## Editing on GitHub
 
@@ -108,12 +58,9 @@ like it's used to change the text and will help us, right?!
 
 ![Edit Pencil](https://i.imgur.com/Drt2g9u.png)
 
-Wrong! DON'T EVER USE THAT! Regardless of how small the changes are, you
-never want to edit ON GitHub. You always want to make changes locally and push
-them.
+Wrong! DON'T EVER USE THAT! Regardless of how small the changes are, you never want to edit ON GitHub. You always want to make changes locally and push them.
 
-The reason we never want to do that is if you edit in the cloud, our local repo
-and GitHub repo become out of sync and it breaks convention.
+The reason we never want to do that is if you edit in the cloud, our local repo and GitHub repo become out of sync and it breaks convention.
 
 ## Additional Resources
 

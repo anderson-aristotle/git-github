@@ -16,12 +16,12 @@
 
 ## Overview
 
-Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git)
+Continuing with what we started [Git Basics](https://git.generalassemb.ly/ga-wdi-boston/git),
 we are going to use Github to manage our project.
 
 ## Demo: Linking with GitHub
 
-So we have a local repository, watch as I create a GitHub repository. Why
+So we have a local repository. Watch as I create a GitHub repository. Why
 GitHub? So we can backup our code online. It also provides us with a useful
 graphical interface and useful collaboration features.
 
@@ -29,15 +29,15 @@ Now create your own GitHub repository and `push` your master branch.
 
 ## Lab: More Pushing
 
-The last time we saw Ned Stark we had just written his fate.  Below his story
-write the beggining of another character's story.  For instance:
+The last time we saw Ned Stark, we had just written his fate.  Below his story
+write the beginning of another character's story.  For instance:
 
 > Joffrey Baratheon was the one to do Ned in, but his story was only about to
-> being, and let me assure you he will ___DEFINITELY NOT DIE!___
+> begin, and let me assure you he will ___DEFINITELY NOT DIE!___
 
 Push the changes you made.
 
-Also push your `dream-story` branch.  We pushed our `master` branch with the
+Also, push your `dream-story` branch.  We pushed our `master` branch with the
 command `git push origin master`.  Can you figure out how to push our
 `dream-story` branch?
 
@@ -48,8 +48,9 @@ creating a `pull request`.
 
 ## Lab: Adding to Other's Stories
 
-Working with a partner follow my example and take turns adding to one another's
-stories. Accept each other's pull requests.  After you've each gone once stop.
+Working with a partner, follow my example and take turns adding to one
+another's stories. Accept each other's pull requests. After you've each gone
+once, stop.
 
 ## Pulling: Updating Your Local
 
@@ -59,7 +60,7 @@ by pulling the changes that we merged.  The command to do this is:
 
 `git pull origin master`
 
-This get the latest copy of our code off of the master branch of our original
+This gets the latest copy of our code off of the master branch of our original
 repository.
 
 ## Editing on GitHub

@@ -89,9 +89,13 @@ If you close the tab without writing a message, the commit will be canceled.
 
 **Note:** You may see `git commit -m` referred to around the internet &ndash;
 this allows you to make a commit with a single-line message directly from the
-command line. **We strongly recommend that you not use this!** It discourages
-writing descriptive commit messages and thinking about your commits as new pages
-in history.
+command line. In most cases, we prefer to use `git commit`, which allows us to
+write a longer and more meaningful commit message.
+
+When you use -m to create an inline commit you are only able to leave a small
+amount of information with your commit. This can potentially lead to poor
+understandably of your commit due to the short nature of inline commits, and
+the lack of a body description to it.
 
 ## `git log`
 

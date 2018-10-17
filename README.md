@@ -25,9 +25,9 @@ So we have a local repository. Watch as I create a GitHub repository. Why
 GitHub? So we can backup our code online. It also provides us with a useful
 graphical interface and useful collaboration features.
 
-Now create your own GitHub repository and `push` your master branch.
+## Lab: Creating & Pushing
 
-## Lab: More Pushing
+Now create your own GitHub repository and push your master branch with the command `git push origin master`.
 
 The last time we saw Ned Stark, we had just written his fate.  Below his story
 write the beginning of another character's story.  For instance:
